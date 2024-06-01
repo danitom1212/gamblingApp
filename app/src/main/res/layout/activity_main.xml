@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:id="@+id/txt_score"
+      android:text="1000"
+      android:padding="20dp"
+      android:background="@drawable/bg_text"
+      android:textColor="@color/white"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+
+  <FrameLayout
+      android:id="@+id/frame_bar"
+      android:layout_width="492dp"
+      android:layout_height="191dp"
+      android:layout_centerInParent="true"
+      android:background="@drawable/frame">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+      <com.example.gamblingapp.imageViewScrolling.imageViewScrolling
+          android:id="@+id/image3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+      <com.example.gamblingapp.imageViewScrolling.imageViewScrolling
+          android:id="@+id/image2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+      <com.example.gamblingapp.imageViewScrolling.imageViewScrolling
+          android:id="@+id/image"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+      </com.example.gamblingapp.imageViewScrolling.imageViewScrolling>
+    </LinearLayout>
+  </FrameLayout>
+
+<ImageView
+    android:id="@+id/btn_up"
+    android:src="@drawable/up"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="51dp"
+    android:layout_toEndOf="@+id/frame_bar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+
+  <ImageView
+      android:id="@+id/btn_down"
+      android:src="@drawable/down"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="79dp"
+      android:layout_toEndOf="@+id/frame_bar"
+      android:visibility="gone"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/>
+</RelativeLayout>
+
+

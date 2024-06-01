@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "891968667031",
+    "firebase_url": "https://casinobar-ed818-default-rtdb.firebaseio.com",
+    "project_id": "casinobar-ed818",
+    "storage_bucket": "casinobar-ed818.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891968667031:android:5aa6947bc18506a56bd8d2",
+        "android_client_info": {
+          "package_name": "com.example.gamblingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891968667031-7gjetnv9o2ntmf6k8f4jeamqb495q9re.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGk8GmOdXbIS0-8a0fbVVssOoyKQSs3JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891968667031-7gjetnv9o2ntmf6k8f4jeamqb495q9re.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891968667031:android:6dbbb7e92fcb67e76bd8d2",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891968667031-7gjetnv9o2ntmf6k8f4jeamqb495q9re.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGk8GmOdXbIS0-8a0fbVVssOoyKQSs3JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891968667031-7gjetnv9o2ntmf6k8f4jeamqb495q9re.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
